@@ -1,0 +1,19 @@
+/* _sass/_base.scss - NO Front Matter needed here! */
+
+body {
+  margin: 20px 180px;
+  font-size: large;
+}
+
+a:link, 
+a:visited {
+  color: #2b2d42; 
+  text-decoration: underline;
+}
+a:hover {
+  color: #e63946;
+}
+
+a:active {
+  color: #d62828;
+}

@@ -3,20 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
     <nav>
   
     <a href="/" class="current">Home</a>
   
-    <a href="/about.html">About</a>
+    <a href="/physics.html">Physics</a>
   
-    <a href="">Test</a>
+    <a href="/chemistry.html">Chemistry</a>
+  
+    <a href="/biology.html">Biology</a>
+  
+    <a href="/miscellanous.html">Miscellanous</a>
+  
+    <a href="/about.html">About</a>
   
 </nav>
 
-    <h1>hello world!</h1>
+    <h1><a href="https://www.youtube.com/watch?v=YdEdyD3LSg4" id="random-heading"></a></h1>
+
+<script>
+  const titles = [
+    "Bawat bata may tanong / Ba\'t ganito, bat gano\'n?",
+    "Hayaang buksan ang isipan / Sa science o agham!",
+    "Tayo na sa Sine'skwela / Tuklasin natin ang siyensya!",
+    "Buksan ang pag-iisip / Tayo'y likas na scientist!",
+    "Kinabukasan ng ating bayan / Siguradong makakamtan!",
+    "Sa daigdig ng agham / Tuklasin ang kaalaman!",
+    "Halina't lumipad / Sa daigdig ng isipan!",
+    "Kaya't habang maaga / Mag-aral ng siyensya!",
+    "Sa teknolohiya / Ang buhay ay gaganda!"
+  ];
+
+  const randomIndex = Math.floor(Math.random() * titles.length);
+  document.getElementById("random-heading").innerText = titles[randomIndex];
+</script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YdEdyD3LSg4?si=x4BNWuoBOSUycnzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Sample text</p>
+
+<p>test</p>
+
+<p>beep beep</p>
+
+<p>type shit</p>
+
 
   </body>
 </html>

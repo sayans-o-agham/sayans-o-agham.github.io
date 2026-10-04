@@ -1,5 +1,12 @@
 - name: Home
   link: /
+- name: Physics
+  link: /physics.html
+- name: Chemistry
+  link: /chemistry.html
+- name: Biology
+  link: /biology.html
+- name: Miscellanous
+  link: /miscellanous.html
 - name: About
   link: /about.html
-- name: Test

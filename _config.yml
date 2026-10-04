@@ -1,0 +1,10 @@
+collections:
+  biology:
+    output: true
+    permalink: /biology/:path/
+  physics:
+    output: true
+    permalink: /physics/:path/
+  chemistry:
+    output: true
+    permalink: /chemistry/:path/
